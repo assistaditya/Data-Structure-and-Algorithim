@@ -1,0 +1,10 @@
+def array(arr):
+    return arr[::-1]
+    
+arr = list(map(int,input("Enter the elemnts in an array = ").split()))
+print("Original array = ",arr)
+print("Size of an array = ",len(arr))
+result = array(arr)
+print("The reversed array = ",array(arr))
+
+   
