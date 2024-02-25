@@ -1,0 +1,10 @@
+A = [25,30,40,50]
+B = [19,34,45,90]
+
+print("Before Swap = ",A)
+print("Before Swap =", B)
+
+A,B=B,A
+
+print("After swapping = ",A)
+print("After swapping = ", B)
