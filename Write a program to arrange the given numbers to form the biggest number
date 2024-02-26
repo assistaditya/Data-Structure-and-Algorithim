@@ -1,0 +1,7 @@
+def bignumber(arr):
+    arr = sorted(map(str,arr),key=lambda x:x*10,reverse = True)
+    result = ''.join(arr)
+    return result if result[0]!='0' else '0'
+
+arr=[5, 67, 2, 88, 9, 76, 52, 4]    
+print(bignumber(arr))
