@@ -1,0 +1,8 @@
+def max_min_number(arr):
+    max_number = max(arr)
+    min_number = min(arr)
+    
+    return max_number,min_number
+    
+arr = [3, 1, 56, 34, 12, 9, 98, 23, 4]    
+print(max_min_number(arr))
